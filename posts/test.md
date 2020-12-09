@@ -239,6 +239,12 @@ in both `<pre>` and `<code>` tags.
 To produce a code block in Markdown, simply indent every line of the
 block by at least 4 spaces or 1 tab.
 
+```js
+const test = () => {
+  console.log("it works");
+};
+```
+
 This is a normal paragraph:
 
     This is a code block.
